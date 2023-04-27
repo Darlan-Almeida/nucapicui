@@ -1206,7 +1206,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   background: #000;
   position: relative;
-  
 }
 
 #team .member .member-info {
@@ -1246,6 +1245,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
+}
+
 }
 
 #team .member h4 {
