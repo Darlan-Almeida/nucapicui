@@ -1197,6 +1197,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   background: #fff;
   padding: 60px 0;
+  display: flex;
+  justify-content: center;
 }
 
 #team .member {
