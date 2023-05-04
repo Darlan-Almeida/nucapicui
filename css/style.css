@@ -1194,9 +1194,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 
- #team {
+
+#team {
   background: #fff;
-  padding: 60px 0;
+  padding: 60px;
+  
+}
+
+#team .row {
+  display: flex;
+  justify-content: center;
 }
 
 #team .member {
@@ -1204,7 +1211,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   background: #000;
   position: relative;
-  
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #team .member .member-info {
@@ -1245,7 +1253,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 0;
   transition: margin 0.4s;
 }
-}
 
 #team .member h4 {
   font-weight: 700;
@@ -1276,9 +1283,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member .social i {
   font-size: 18px;
-  margin: 0 2px;
+  margin: 2px;
 }
-
 /* Contact Section
 --------------------------------*/
 
@@ -1385,6 +1391,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 
 #footer {
   background: #000;
@@ -1545,6 +1552,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+
+#footer .portifolio {
+  display: inline-block;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
