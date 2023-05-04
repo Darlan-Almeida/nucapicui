@@ -1201,7 +1201,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .row {
-  display: flex;
   justify-content: center;
 }
 
